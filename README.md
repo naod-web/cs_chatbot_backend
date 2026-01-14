@@ -12,3 +12,9 @@ pandas==2.0.3
 scipy==1.11.4
 joblib==1.3.2
 rapidfuzz==3.6.1
+
+
+================tsx_file===========
+Is a separate file for Chatbot.tsx that call the backend service 
+
+Chatbot.tsx --> /service/chatbot.py under main project
