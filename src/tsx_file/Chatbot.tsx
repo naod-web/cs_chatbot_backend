@@ -9,10 +9,10 @@ import { toast } from '@/components/ui/use-toast';
 import { Slider } from '@/components/ui/slider';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5001/api/chatbot';
+const API_BASE_URL = 'http://<LIP>:5001/api/chatbot';
 
 // Welcome audio base64 (lite "Welcome to Siket Bank" sound)
-const WELCOME_AUDIO_BASE64 = '/home/gemechug/Downloads/bank-vault-100469.mp3'; // Placeholder - replace with actual sound
+const WELCOME_AUDIO_BASE64 = '<welcome sound path>/robosoundchatbot.mp3'; // Placeholder - replace with actual sound
 
 // Create simple beep tones for different sounds
 const createBeepSound = (frequency = 440, duration = 0.3, volume = 0.3) => {
